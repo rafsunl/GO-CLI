@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
-
 func main()  {
+ 
+  replStart()
 
-  fmt.Println("Hello world")
 }
