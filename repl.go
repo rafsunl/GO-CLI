@@ -1,9 +1,10 @@
 package main
 
 import (
-  "bufio"
-  "fmt"
-  "os"
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
 )
 
 func replStart()  {
@@ -21,4 +22,11 @@ for {
 
   }
 
+}
+
+func cleanInput(str string) []string {
+  lowered := strings.ToLower(str)
+  words := strings.Fields(lowered)
+  return words
+  
 }
